@@ -5,68 +5,62 @@ Header Text - #553100
 Main background - #D4A76A*/
 
 body {
-    background-color: #D4A76A;
-    margin: 0;
+  background-color: #d4a76a;
+  margin: 0;
 }
 header {
-    background-color: #FFDBAA;
-    color: #553100;
-    padding: 20px;
-    justify-content: space-between;
-    align-items: center;
-    display: flex;
+  display: flex;
+  background-color: #ffdbaa;
+  color: #553100;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
 }
-nav{
-    display: flex;
-    gap: 15px;
+nav {
+  display: flex;
+  gap: 15px;
 }
-main {
-    padding: 20px;
-    text-align: center;
-    padding: 100px
-}
-.small-box-button{
-    background-color: #805215;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    text-align: center;
-}
-.box-button{
+
+.small-box-button {
   background-color: #805215;
   color: white;
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+  padding: 10px 20px;
+  cursor: pointer;
+  text-align: center;
+}
+.box-button {
+  background-color: #805215;
+  color: white;
   text-align: center;
   padding: 10px 20px;
   width: 100%;
   cursor: pointer;
   margin-top: auto;
 }
-.box-item{
+.box-item {
   display: flex;
   flex-direction: column;
-  background-color:  white;
+  background-color: white;
   padding: 10px;
-  justify-content: center;
   gap: 20px;
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
   width: 30%;
+  text-align: center;
 }
 
-.box-container{
+.box-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
-  min-height: 400px;
+  padding: 100px;
 }
-.large-box-item{
-  background-color:white;
+.large-box-item {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
   color: black;
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
   text-align: center;
   padding: 10px 20px;
   width: 100%;
-  gap: 20px;
+  gap: 10px;
 }
